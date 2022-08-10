@@ -1,0 +1,99 @@
+.header {
+    padding: 80px;
+    /* some padding */
+    text-align: right;
+    /* center the text */
+    background: #0f7531;
+    /* green background */
+    color: #bb9f06;
+    /* white text color */
+}
+.container {
+    position: relative;
+  }
+  img {
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: left;
+  }
+
+.body {
+    color: #bb9f06;
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+    font-size: 60px;
+}
+
+.heading {
+    display: center;
+    grid-template-columns: 200px 200px 200px;
+    color: #2F1B25;
+    background: #A15E49;
+}
+
+/* Column container */
+.areas {
+    display: flex;
+    align-items: center;
+    grid-template-columns: 200px 200px 200px;
+    color: #2F1B25;
+    background: #A15E49;
+}
+.areas .col {
+    flex: 1
+}
+
+.flex-grid {
+    display: flex;
+}
+
+.flex-grid .col {
+    flex: 1;
+}
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-grid-thirds .col {
+    width: 32%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.flex-grid {
+    margin: 0 0 20px 0;
+}
+
+.col {
+    padding: 20px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    /* Some padding */
+    text-align: right;
+    /* Center text*/
+    background: #4e3822;
+    /* Grey background */
+}

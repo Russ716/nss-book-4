@@ -1,0 +1,97 @@
+@import "details.css";
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+    color: #404040;
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Patua One", serif;
+    letter-spacing: 2px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #DB3A34;
+    background-color: #330F0A;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+
+}
+
+#demo {
+    display: flex;
+    justify-content: space-between;
+    background: #0F7531;
+    background: -moz-linear-gradient(top, #0F7531 0%, #330F0A 100%);
+    background: -webkit-linear-gradient(top, #0F7531 0%, #330F0A 100%);
+    background: linear-gradient(to bottom, #0F7531 0%, #330F0A 100%);
+    font-family: Georgia, serif;
+    font-size: 125px;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+    color: #DB3A34;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    background-color: #330F0A;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+}
+
+.flex-container>div {
+    background: #ffc857;
+    border: 3px solid #2EC0F9;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto
+}
+
+.footer {
+    color: #DB3A34;
+    padding: 20px;
+    /* Some padding */
+    text-align: right;
+    /* Center text*/
+    background: #330F0A;
+    /* Grey background */
+}
