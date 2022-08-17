@@ -1,17 +1,11 @@
 const database = {
-    guests: [{
-        id: 1, name: "Alphonse Meron", area: 2
-    }, {
-        id: 2, name: "Damara Pentecust", area: 4
-    }, {
-        id: 3, name: "Anna Bowton", area: 4
-    }, {
-        id: 4, name: "Hunfredo Drynan", area: 6
-    }, {
-        id: 5, name: "Elmira Bick", area: 6
-    }, {
-        id: 6, name: "Bernie Dreger", area: 3
-    }, {
+    guests: [{ id: 1, name: "Alphonse Meron", area: 2 },
+    { id: 2, name: "Damara Pentecust", area: 4 },
+    { id: 3, name: "Anna Bowton", area: 4 },
+    { id: 4, name: "Hunfredo Drynan", area: 6 },
+    { id: 5, name: "Elmira Bick", area: 6 },
+    { id: 6, name: "Bernie Dreger", area: 3 },
+    {
         id: 7, name: "Rolando Gault", area: 1
     }, {
         id: 8, name: "Tiffanie Tubby", area: 6
